@@ -37,6 +37,7 @@ body
 
 .btn {
   height: 40px;
+  width: 180px;
   transition-duration: 0.4s;
 }
 
