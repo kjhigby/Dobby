@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Catch a fish</title>
+
+  </head>
+  <style>
+  body {
+    text-align: center;
+    background-color: #D1E8E4;
+  }
+  .square {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: blue;
+  background-color: blue;
+}
+
+  #grid {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   align-content: center;
+   width: 618px;
+   height: 618px;
+   margin: 0px auto;
+
+ }
+
+ .fish {
+   background-image: url('images/fish.png');
+   background-size: cover;
+ }
+ #count {
+   /*text-align:center*/;
+   color: blue;
+   font-size: 25px;
+ }
+ #seconds {
+   font-size:25px;}
+
+   @media screen and (max-width: 800px) {
+     #grid {
+       width: 100%;
+       padding: 0;
+     }
+   }
+   </style>
+  <body>
+    <h1>Catch a fish!</h1>
+    <h4>How many fish can you catch within 60 seconds? Try to click on the middle of the fish. (picture downloaded from pngtree.com)</h4>
+
+
+
+    <h2 style="display:inline;">Your score: </h2><h2 style="display:inline;" id="score">0</h2>
+
+    <div id="count"></div><br><br>
+
+
+    <div id="grid">
+      <div class="square" id="1"></div>
+      <div class="square" id="2"></div>
+      <div class="square" id="3"></div>
+      <div class="square" id="4"></div>
+      <div class="square" id="5"></div>
+      <div class="square" id="6"></div>
+      <div class="square" id="7"></div>
+      <div class="square" id="8"></div>
+      <div class="square" id="9"></div>
+    </div>
+<script src="game.js" charset="utf-8"></script>
+  </body>
+
+</html>
