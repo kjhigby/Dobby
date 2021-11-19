@@ -11,17 +11,14 @@
 </head>
 
 <body>
-  <h1>Memory Game </h1>
-  <h4>How quickly can you find all the matches?</h4>
-  <div class="time">Timer: <span id="seconds">00</span>:<span id="tens">00</span>
-    <p></p>
 
-    <div class="wrapper">
-      <button id="button-start">Start</button>
-      <button id="button-stop">Stop</button>
-      <button id="button-reset">Reset</button><br>
-    </div>
-  </div>
+  <h1>Memory Game </h1>
+  <h4>Can you find all the matches in under 60 seconds?</h4>
+  <h2 style="display:inline; text-align:center;">Your score: </h2><h2 style="display:inline;" id="score">0</h2>
+  <br>
+
+
+<div id="count"></div><br><br>
 
   <div class="row">
     <div class="card color-hidden" onclick="onCardClicked(event)"></div>
