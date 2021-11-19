@@ -1,0 +1,161 @@
+body
+{ margin: 0;
+  text-align: center;
+
+    background-color: #e4d8dc;
+}
+.dog {
+  border-radius: 50%;
+}
+
+.dobby-top
+{ margin-top: 0;
+    color: #ffe3e3;
+}
+.top-container
+{ width: 100%;  height: 100%;  padding: 20px;  text-align: center;
+  border: solid;  border-width: .2px, 0, .2px, 0;
+    background-color: #93b5c6;
+}
+
+.middle-container
+{width: 100%;  height: 100%;  padding: 20px;
+  background-color: #FFE3E3; text-align: center;
+
+  border:solid;
+}
+
+
+.roll {
+  position: relative;
+  width: 100%; height: 250px;
+  text-align: center;
+  border: solid;
+}
+.bottom-container
+{ width: 100%;  height: 200px;  padding: 20px; text-align: center;
+  background-color: #c9ccd5; border: solid;
+}
+
+
+.btn {
+  height: 40px;
+  width: 180px;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #93B5C6;
+
+
+}
+.btndice {
+  transition-duration: 0.4s;
+}
+
+.btndice:hover {
+  background-color:  #FFE3E3;
+}
+.btntoday {
+    height: 80px;
+    transition-duration: 0.4s;
+  }
+
+.btn:hover {
+    background-color: #93B5C6;
+}
+
+.game1{
+  background-color: #93B5C6; width:100%; height: 175px; padding: 20px; text-align: center;
+}
+
+/*Match game*/
+#count {
+  font-size: 25px;
+  color: #12776F;
+  width: 75%;
+  
+  padding: 15px;
+}
+
+.row {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.card.done {
+  cursor: default;
+}
+h1 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+.time {
+  font-size: 25px;
+  text-align: center;
+}
+.score {
+  font-size: 25px;
+  text-align: center;
+}
+.card.done:hover {
+  cursor: default;
+  box-shadow: none;
+}
+
+.card:hover {
+  box-shadow: inset 0px 0px 0px 1px red;
+  box-sizing: border-box;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.orange {
+  background-color: orange;
+}
+.cyan {
+  background-color: #533535;
+}
+.yellow {
+  background-color: yellow;
+}
+.pink {
+  background-color: pink;
+}
+.teal {
+  background-color: teal;
+}
+
+.color-hidden {
+  background-color: purple;
+}
+
+/*catch a fish*/
+
+
+}
+
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+   #count {
+    font-size: 50px;
+    padding: 50px;
+
+  }
+}
